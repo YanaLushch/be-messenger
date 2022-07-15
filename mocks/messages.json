@@ -1,0 +1,34 @@
+[
+  {
+    "id": "123",
+    "chatId": "chat123",
+    "userId": "user123",
+    "text": "Hi, how are you",
+    "createdAt": "December 17, 2022 03:24:00",
+    "updatedAt": "December 17, 2022 03:24:00"
+  },
+  {
+    "id": "124",
+    "chatId": "chat123",
+    "userId": "user12",
+    "text": "good, you?",
+    "createdAt": "December 17, 2022 03:25:00",
+    "updatedAt": "December 17, 2022 03:25:00"
+  },
+  {
+    "id": "125",
+    "chatId": "chat123",
+    "userId": "user12",
+    "text": "good, you?",
+    "createdAt": "December 17, 2022 03:26:00",
+    "updatedAt": "December 17, 2022 03:26:00"
+  },
+  {
+    "id": "126",
+    "chatId": "chat123",
+    "userId": "user123",
+    "text": "what you doing?",
+    "createdAt": "December 17, 2022 03:28:00",
+    "updatedAt": "December 17, 2022 03:28:00"
+  }
+]
