@@ -1,0 +1,90 @@
+[
+  {
+    "contact_id": 1,
+    "firstName": "John",
+    "lastName": "Doe",
+    "avatar":
+      "https://avatars.dicebear.com/api/male/10.svg",
+    "online": true,
+    "lastMessage": "Hello, how are you?",
+    "lastMessageTime": "December 17, 2022 03:29:00",
+    "unreadMessages": 1
+  },
+  {
+    "contact_id": 2,
+    "firstName": "John",
+    "lastName": "Doe",
+    "avatar":
+      "https://avatars.dicebear.com/api/male/11.svg",
+    "online": true,
+    "lastMessage": "Hello, how are you?",
+    "lastMessageTime": "December 17, 2022 03:45:00",
+    "unreadMessages": 1
+  },
+  {
+    "contact_id": 3,
+    "firstName": "John",
+    "lastName": "Doe",
+    "avatar":
+      "https://avatars.dicebear.com/api/male/12.svg",
+    "online": true,
+    "lastMessage": "Hello, how are you?",
+    "lastMessageTime": "December 17, 2022 03:12:00",
+    "unreadMessages": 1
+  },
+  {
+    "contact_id": 4,
+    "firstName": "John",
+    "lastName": "Doe",
+    "avatar":
+      "https://avatars.dicebear.com/api/male/13.svg",
+    "online": true,
+    "lastMessage": "Hello, how are you?",
+    "lastMessageTime": "December 19, 2022 03:24:00",
+    "unreadMessages": 1
+  },
+  {
+    "contact_id": 5,
+    "firstName": "John",
+    "lastName": "Doe",
+    "avatar":
+      "https://avatars.dicebear.com/api/male/14.svg",
+    "online": true,
+    "lastMessage": "Hello, how are you?",
+    "lastMessageTime": "December 25, 2022 03:24:00",
+    "unreadMessages": 1
+  },
+  {
+    "contact_id": 6,
+    "firstName": "John",
+    "lastName": "Doe",
+    "avatar":
+      "https://avatars.dicebear.com/api/male/15.svg",
+    "online": true,
+    "lastMessage": "Hello, how are you?",
+    "lastMessageTime": "December 17, 2022 03:24:00",
+    "unreadMessages": 1
+  },
+  {
+    "contact_id": 7,
+    "firstName": "John",
+    "lastName": "Doe",
+    "avatar":
+      "https://avatars.dicebear.com/api/male/17.svg",
+    "online": true,
+    "lastMessage": "Hello, how are you?",
+    "lastMessageTime": "December 17, 2022 03:24:00",
+    "unreadMessages": 1
+  },
+  {
+    "contact_id": 8,
+    "firstName": "John",
+    "lastName": "Doe",
+    "avatar":
+      "https://avatars.dicebear.com/api/male/16.svg",
+    "online": true,
+    "lastMessage": "Hello, how are you?",
+    "lastMessageTime": "December 17, 2022 03:24:00",
+    "unreadMessages": 1
+  }
+]

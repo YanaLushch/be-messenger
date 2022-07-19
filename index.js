@@ -1,26 +1,24 @@
-import http from "http";
-import url from "url";
-import fs from "fs";
+import express from "express";
+import cors from "cors";
+import { createRequire } from "module";
+import { groupMessages } from "./utils/groupMessages.js";
 
-const messages = fs.readFile("./mocks/messages.json", "utf-8");
-const parsedMessages = JSON.parse(messages);
+const app = express();
+const require = createRequire(import.meta.url);
+const dataMessages = require("./mocks/messages.json");
+const dataFriends = require("./mocks/friends.json");
 
-const server = http.createServer((req, res) => {
-  const pathName = req.url;
+app.use(cors())
 
-  if (pathName === "/chat") {
-    res.end(messages);
-  } else if (pathName === "/") {
-    res.end("Hello World");
-  } else {
-    res.writeHead(404, {
-      "Content-Type": "text/html",
-      "my-own-header": "hello-world",
-    });
-    res.end("404");
-  }
-});
 
-server.listen(8000, "127.0.0.1", () => {
-  console.log("Server running at http://localhost:8000/");
+app.get("/chat", (req, res) => {
+  res.send(JSON.stringify(groupMessages(dataMessages)));
+})
+
+app.get("/", (req, res) => {
+  res.send(JSON.stringify(dataFriends));
+})
+
+app.listen(8000, () => {
+  console.log("Server is running on port 8000");
 });
