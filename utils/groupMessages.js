@@ -1,4 +1,4 @@
-export const groupMessages = (messages) => {
+const groupMessages = (messages) => {
   const grouping = messages.reduce((acc, message) => {
     const { userId } = message;
     const lastMessage = acc[acc.length - 1];
@@ -22,3 +22,5 @@ export const groupMessages = (messages) => {
   }, []);
   return grouping;
 };
+
+export default groupMessages;
