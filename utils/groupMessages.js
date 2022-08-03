@@ -5,7 +5,7 @@ const groupMessages = (messages) => {
     if (lastMessage && lastMessage.userId === userId) {
       if (lastMessage.type !== "group") {
         acc[acc.length - 1] = {
-          id: lastMessage.id,
+          _id: lastMessage._id,
           chatId: lastMessage.chatId,
           userId: lastMessage.userId,
           type: "group",
@@ -16,7 +16,7 @@ const groupMessages = (messages) => {
         acc[acc.length - 1].messages = newMessages;
       }
     } else {
-      acc.push({ ...message, type: "single" });
+      acc.push({...message.toObject(), type: "single",});
     }
     return acc;
   }, []);

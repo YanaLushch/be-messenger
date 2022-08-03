@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import morgan from "morgan";
-import chatRoutes from "./routes/chatRoutes.js";
+import messageRoutes from "./routes/messageRoutes.js";
 import friendsRoutes from "./routes/friendsRoutes.js";
 
 const app = express();
@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 //routes
-app.use("/api/v1/chat", chatRoutes);
+app.use("/api/v1/messages", messageRoutes);
 app.use("/api/v1/friends", friendsRoutes);
 
 export default app;
